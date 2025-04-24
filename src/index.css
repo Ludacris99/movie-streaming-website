@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=Tektur:wght@400..900&display=swap');
+
+@import "tailwindcss";
+
+@theme{
+    --font-tektur: "Tektur";
+    --font-roboto: "Roboto";
+}
+
+@layer base{
+    body{
+        overflow-x: hidden;
+        background: #0f182b;
+    }
+}
